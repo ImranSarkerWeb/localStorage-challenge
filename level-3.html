@@ -40,21 +40,23 @@
     <section style="text-align: center;">
         <div>
             <label for="name">Name</label>
-            <input type="text" id="name"> <button>Delete Name</button>|<button>Send Name</button>
+            <input type="text" id="name"> <button id="delete-name">Delete Name</button>|<button id="send-name">Send Name</button>
         </div>
         <div>
             <label for="email">Email</label>
-            <input type="email" id="email"> <button>Delete Email</button>|<button>Send Email</button>
+            <input type="mail" id="email"> <button id="delete-email">Delete Email</button>|<button id="send-email">Send Email</button>
         </div>
         <div id="text-message">
             <label for="message">Message</label>
-           <textarea name="message" id="message" cols="30" rows="10"></textarea> <button>Delete Message</button>|<button>Send Message</button>
+           <textarea name="message" id="message" cols="30" rows="10"></textarea> <button id="delete-message">Delete Message</button>|<button id="send-message">Send Message</button>
         </div>
 
         <div>
             <!-- <button>Send</button> -->
-            <button>Reset</button>
+            <button id="reset">Reset</button>
         </div>
     </section>
+
+    <script src="js/level-3.js"></script>
 </body>
 </html>
